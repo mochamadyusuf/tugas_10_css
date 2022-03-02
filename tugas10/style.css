@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+    to right,
+    rgb(235, 69, 69),
+    rgb(229, 147, 164)
+  );
+}
+
+div {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.satu {
+  height: 400px;
+  background-image: radial-gradient(farthest-corner at 50% 100%, white, blue);
+}
+.dua {
+  margin-bottom: 20px;
+  height: 150px;
+  background-image: repeating-linear-gradient(90deg, white, blue, white);
+}
